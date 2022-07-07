@@ -18,9 +18,9 @@ export const App = () => {
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
+        backgroundColor: '#cecece',
       }}
     >
-      React homework template
       <Profile
         username={user.username}
         tag={user.tag}
@@ -28,9 +28,9 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       ></Profile>
-      <Statistics title="Statictics" stats={data}></Statistics>
-      <Statistics stats={data} />
-      <FriendList friends={friends} />;
+      <Statistics title="Upload stats" stats={data}></Statistics>
+      {/* <Statistics stats={data} /> */}
+      <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </div>
   );

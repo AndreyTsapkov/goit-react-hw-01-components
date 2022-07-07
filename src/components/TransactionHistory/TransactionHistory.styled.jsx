@@ -1,2 +1,3 @@
-function TransactionHistory(props) {}
-export default TransactionHistory;
+import styled from '@emotion/styled';
+
+export const TransactionHistoryTable = styled.table``;

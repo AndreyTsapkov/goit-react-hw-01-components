@@ -1,3 +1,5 @@
 import styled from '@emotion/styled';
 
-const Friend
+const List = styled.ul``;
+
+export default List;
