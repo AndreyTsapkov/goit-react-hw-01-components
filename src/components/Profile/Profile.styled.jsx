@@ -4,7 +4,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   margin-top: 25px;
   background-color: #fff;
   border: 2px solid #8e8e8e;
@@ -61,8 +61,7 @@ const Stats = styled.ul`
 const StatsItem = styled.li`
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
+  align-items: center;
 
   padding: 10px;
 
@@ -76,6 +75,7 @@ const Label = styled.span`
   justify-content: center;
   font-size: 12px;
   color: #aeacac;
+  margin-bottom: 2px;
 `;
 
 const Quantity = styled.span`
