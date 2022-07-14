@@ -29,7 +29,11 @@ const StatItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+
+  /* padding: 20px; */
+  width: 80px;
+  height: 80px;
+
   background-color: ${() =>
     `#${Math.floor(Math.random() * 16777215).toString(16)}`};
 `;
@@ -37,12 +41,13 @@ const StatItem = styled.li`
 const Label = styled.span`
   color: #fff;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 `;
 
 const Percentage = styled.span`
   color: #fff;
   font-size: 24px;
+  margin-bottom: 10px;
 `;
 
 export { StatisticsSection, Title, StatList, StatItem, Label, Percentage };
